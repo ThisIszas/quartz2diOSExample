@@ -8,27 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		077D011726538C510068FBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D011626538C510068FBE2 /* AppDelegate.m */; };
-		077D011A26538C510068FBE2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D011926538C510068FBE2 /* SceneDelegate.m */; };
 		077D011D26538C510068FBE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D011C26538C510068FBE2 /* ViewController.m */; };
-		077D012026538C510068FBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077D011E26538C510068FBE2 /* Main.storyboard */; };
 		077D012226538C540068FBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077D012126538C540068FBE2 /* Assets.xcassets */; };
 		077D012526538C540068FBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077D012326538C540068FBE2 /* LaunchScreen.storyboard */; };
 		077D012826538C540068FBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D012726538C540068FBE2 /* main.m */; };
+		077D013626538F320068FBE2 /* USFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D013526538F320068FBE2 /* USFlagView.m */; };
+		077D013B2653900F0068FBE2 /* ZLQuartzBaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D013A2653900F0068FBE2 /* ZLQuartzBaseUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		077D011226538C510068FBE2 /* Quartz 2d iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz 2d iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		077D011526538C510068FBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		077D011626538C510068FBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		077D011826538C510068FBE2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		077D011926538C510068FBE2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		077D011B26538C510068FBE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		077D011C26538C510068FBE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		077D011F26538C510068FBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		077D012126538C540068FBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077D012426538C540068FBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		077D012626538C540068FBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077D012726538C540068FBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077D013426538F320068FBE2 /* USFlagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USFlagView.h; sourceTree = "<group>"; };
+		077D013526538F320068FBE2 /* USFlagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USFlagView.m; sourceTree = "<group>"; };
+		077D01392653900F0068FBE2 /* ZLQuartzBaseUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLQuartzBaseUIView.h; sourceTree = "<group>"; };
+		077D013A2653900F0068FBE2 /* ZLQuartzBaseUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLQuartzBaseUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +62,44 @@
 		077D011426538C510068FBE2 /* Quartz 2d iOS Example */ = {
 			isa = PBXGroup;
 			children = (
+				077D013826538FE60068FBE2 /* base */,
+				077D013226538ECF0068FBE2 /* Quartz2DExamples */,
 				077D011526538C510068FBE2 /* AppDelegate.h */,
 				077D011626538C510068FBE2 /* AppDelegate.m */,
-				077D011826538C510068FBE2 /* SceneDelegate.h */,
-				077D011926538C510068FBE2 /* SceneDelegate.m */,
 				077D011B26538C510068FBE2 /* ViewController.h */,
 				077D011C26538C510068FBE2 /* ViewController.m */,
-				077D011E26538C510068FBE2 /* Main.storyboard */,
 				077D012126538C540068FBE2 /* Assets.xcassets */,
 				077D012326538C540068FBE2 /* LaunchScreen.storyboard */,
 				077D012626538C540068FBE2 /* Info.plist */,
 				077D012726538C540068FBE2 /* main.m */,
 			);
 			path = "Quartz 2d iOS Example";
+			sourceTree = "<group>";
+		};
+		077D013226538ECF0068FBE2 /* Quartz2DExamples */ = {
+			isa = PBXGroup;
+			children = (
+				077D013326538F0C0068FBE2 /* CGLayerDrawing */,
+			);
+			path = Quartz2DExamples;
+			sourceTree = "<group>";
+		};
+		077D013326538F0C0068FBE2 /* CGLayerDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				077D013426538F320068FBE2 /* USFlagView.h */,
+				077D013526538F320068FBE2 /* USFlagView.m */,
+			);
+			path = CGLayerDrawing;
+			sourceTree = "<group>";
+		};
+		077D013826538FE60068FBE2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				077D01392653900F0068FBE2 /* ZLQuartzBaseUIView.h */,
+				077D013A2653900F0068FBE2 /* ZLQuartzBaseUIView.m */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +160,6 @@
 			files = (
 				077D012526538C540068FBE2 /* LaunchScreen.storyboard in Resources */,
 				077D012226538C540068FBE2 /* Assets.xcassets in Resources */,
-				077D012026538C510068FBE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077D013626538F320068FBE2 /* USFlagView.m in Sources */,
 				077D011D26538C510068FBE2 /* ViewController.m in Sources */,
+				077D013B2653900F0068FBE2 /* ZLQuartzBaseUIView.m in Sources */,
 				077D011726538C510068FBE2 /* AppDelegate.m in Sources */,
 				077D012826538C540068FBE2 /* main.m in Sources */,
-				077D011A26538C510068FBE2 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		077D011E26538C510068FBE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				077D011F26538C510068FBE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		077D012326538C540068FBE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7MQQ9MJWY;
 				INFOPLIST_FILE = "Quartz 2d iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7MQQ9MJWY;
 				INFOPLIST_FILE = "Quartz 2d iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
