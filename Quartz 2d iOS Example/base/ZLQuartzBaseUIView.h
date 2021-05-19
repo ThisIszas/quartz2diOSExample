@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#define KScreenWidth ([[UIScreen mainScreen] bounds].size.width)
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
 
 NS_ASSUME_NONNULL_BEGIN
 

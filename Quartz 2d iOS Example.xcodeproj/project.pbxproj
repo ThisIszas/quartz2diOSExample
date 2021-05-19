@@ -14,6 +14,7 @@
 		077D012826538C540068FBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D012726538C540068FBE2 /* main.m */; };
 		077D013626538F320068FBE2 /* USFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D013526538F320068FBE2 /* USFlagView.m */; };
 		077D013B2653900F0068FBE2 /* ZLQuartzBaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D013A2653900F0068FBE2 /* ZLQuartzBaseUIView.m */; };
+		077D013F2653BCBD0068FBE2 /* ChinaFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D013E2653BCBD0068FBE2 /* ChinaFlagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		077D013526538F320068FBE2 /* USFlagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USFlagView.m; sourceTree = "<group>"; };
 		077D01392653900F0068FBE2 /* ZLQuartzBaseUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLQuartzBaseUIView.h; sourceTree = "<group>"; };
 		077D013A2653900F0068FBE2 /* ZLQuartzBaseUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLQuartzBaseUIView.m; sourceTree = "<group>"; };
+		077D013D2653BCBD0068FBE2 /* ChinaFlagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinaFlagView.h; sourceTree = "<group>"; };
+		077D013E2653BCBD0068FBE2 /* ChinaFlagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaFlagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				077D013426538F320068FBE2 /* USFlagView.h */,
 				077D013526538F320068FBE2 /* USFlagView.m */,
+				077D013D2653BCBD0068FBE2 /* ChinaFlagView.h */,
+				077D013E2653BCBD0068FBE2 /* ChinaFlagView.m */,
 			);
 			path = CGLayerDrawing;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			files = (
 				077D013626538F320068FBE2 /* USFlagView.m in Sources */,
 				077D011D26538C510068FBE2 /* ViewController.m in Sources */,
+				077D013F2653BCBD0068FBE2 /* ChinaFlagView.m in Sources */,
 				077D013B2653900F0068FBE2 /* ZLQuartzBaseUIView.m in Sources */,
 				077D011726538C510068FBE2 /* AppDelegate.m in Sources */,
 				077D012826538C540068FBE2 /* main.m in Sources */,

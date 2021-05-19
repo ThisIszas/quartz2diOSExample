@@ -7,9 +7,7 @@
 
 #import "ViewController.h"
 #import "USFlagView.h"
-
-#define KScreenWidth ([[UIScreen mainScreen] bounds].size.width)
-#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+#import "ChinaFlagView.h"
 
 @interface ViewController ()
 

@@ -60,6 +60,7 @@
     CGContextScaleCTM(context, 1.0, -1.0);
     
     // ***** Drawing to the window graphics context *****
+    /// draw red stripes
     CGContextSaveGState(context);    // 20
     for (i=0; i< 7;  i++)   // 21
     {
@@ -68,10 +69,11 @@
     }
     
     CGContextRestoreGState(context);// 24
-    
+    /// set star layer background color
     CGContextSetRGBFillColor (context, 0, 0, 0.329, 1.0);// 25
     CGContextFillRect (context, starField);// 26
     
+    /// draw star layer
     CGContextSaveGState (context);              // 27
     CGContextTranslateCTM (context, start_x, start_y);      // 28
     for (j=0; j< num_six_star_rows;  j++)   // 29
